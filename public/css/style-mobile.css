@@ -197,10 +197,29 @@
 
 	#main
 	{
-		padding: 4em 0em 2em 0em;
+	  padding: 0px;
+  }
+
+  #main .spotlight {
+    flex-direction: column;
+    margin: 0px !important;
+    padding: 0px !important;
+    border-bottom-style: none;
+  }
+
+  #main .image {
+    width: 100%;
+  }
+
+  #main .description {
+    width: 100%;
 	}
 
-	.homepage #content header h2
+  #main .container {
+    padding: 0px;
+  }
+  
+  .homepage #content header h2
 	{
 		padding: 0.70em 0em;
 		font-size: 1.4em;
